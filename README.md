@@ -1,12 +1,20 @@
-Vue-native Installation
+# Vue-native Installation guide
 
-What do you need?
+## What is Vue-Native?
+Vue Native is a JavaScript framework for building native mobile apps using Vue. js.</br>
+Vue Native translates files to React Native,
+which results in native apps for iOS and Android.
+(Source to source) translator</br>
+The result is a cross-platform native mobile development framework 
+for building lightweight apps.
+
+## Setup
 - Install [Node.js](https://nodejs.org/en/) Global >= Latest Version (LTS Recommended)
-- [npm](https://www.npmjs.com/get-npm) is installed with Node.js
+- Install [npm](https://www.npmjs.com/get-npm) (installed with Node.js)
 - Install [Expo CLI](https://expo.io/tools#cli) OR [React Native CLI](https://reactnative.dev/docs/environment-setup) Global >= Latest Version
 
 
-List for quick installation
+### List for quick installation
 
 Install Vue Native Cli
 
@@ -37,4 +45,5 @@ Created on 12-01-2021
 
 Extra information.
 Npm scripts are working.
+
 Yarn scripts need to be tested by yarn users.

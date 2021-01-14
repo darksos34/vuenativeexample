@@ -6,3 +6,7 @@
 *.expo
 *node_modules
 *package-lock.json
+.idea/modules.xml
+.idea/vcs.xml
+.idea/vuenativeexample.iml
+.idea

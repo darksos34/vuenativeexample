@@ -41,9 +41,11 @@ yarn global add react-native-cli
 
 
 Created on 12-01-2021
+Updated on 20-01-2021
 
 
 Extra information.
 Npm scripts are working.
 
 Yarn scripts need to be tested by yarn users.
+

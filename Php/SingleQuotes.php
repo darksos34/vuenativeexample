@@ -12,6 +12,6 @@ $var = 2;
 
 $misc = "Mr Coding\"s Day";
 
-
 echo $misc;
 
+?>

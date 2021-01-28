@@ -25,11 +25,10 @@
   </view>
 </template>
 
-
 <script>
-import TodoItem from "./components/todoItem";
-import BindButton from "./components/bindButton";
-import Button from "./components/Button";
+import TodoItem from "./components/Examples/todoItem";
+import BindButton from "./components/Examples/bindButton";
+import Button from "./components/Examples/Button";
 
 export default {
   components: {Button, BindButton, TodoItem },

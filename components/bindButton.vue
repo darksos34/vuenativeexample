@@ -1,7 +1,7 @@
 <template>
 <view>
   <button v-bind:onPress="handleBtnClickCount" :title="btnTitle" />
-  <text class="text-container">{{btnClickCount}}</text>
+  <text class="button-text">{{btnClickCount}}</text>
 </view>
 </template>
 <script>
@@ -19,16 +19,17 @@ export default {
   }
 };
 </script>
+
 <style>
-.container {
-  background-color: white;
-  align-items: center;
+.button-text{
+
+  width: 100px;
+  height: 35px;
+  background-color: #FFCE00;
   justify-content: center;
-  flex: 1;
+  align-items: center;
+  margin-bottom: 5px;
 }
-.text-container {
-  color: blue;
-  padding: 2;
-  font-size: 20;
-}
+
+
 </style>

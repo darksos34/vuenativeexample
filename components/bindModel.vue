@@ -13,11 +13,11 @@
 </template>
 <style>
 .animated-view-style{
-  height: 100;
-  width: 100;
+  height: 100px;
+  width: 100px;
 }
 .container{
-  padding:40;
+  padding:40px;
 }
 </style>
 

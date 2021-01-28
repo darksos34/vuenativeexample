@@ -14,12 +14,12 @@
     />
 
     <bind-button
-
         class="text-container"
-        v-for="todo in todos"
-        :key="todo.text"
-        :item="todo"
+
     />
+
+      <button v-on:click="count += 1" title="Add 1" />
+      <text>{{ counter }}</text>
 
 
   </view>
@@ -29,18 +29,28 @@
 <script>
 import TodoItem from "./components/todoItem";
 import BindButton from "./components/bindButton";
+import Button from "./components/Button";
 
 export default {
-  components: { BindButton, TodoItem },
+  components: {Button, BindButton, TodoItem },
   data: function() {
     return {
       todos: [
-        { id: 1, text: "Learn JavaScript" },
+        { id: 1, text: "Learn JavaScript", },
+
         { id: 2, text: "Learn Vue" },
-        { id: 3, text: "Build something awesome" }
-      ]
+        { id: 3, text: "Build something awesome" },
+        { id: 4, text: "Create Something Unique" },
+        { id: 5, text: "Analyse and find new project" },
+        { id: 6, text: "Test your application" },
+        { id: 7, text: "Write Documentation" },
+        { id: 8, text: "Show your app to friends" }
+    ]
+
+
     };
   }
+
 };
 </script>
 <style>
@@ -55,5 +65,6 @@ export default {
   padding: 2px;
   font-size: 22px;
 }
+
 
 </style>

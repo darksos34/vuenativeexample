@@ -12,12 +12,26 @@
         :key="todo.text"
         :item="todo"
     />
+
+    <bind-button
+
+        class="text-container"
+        v-for="todo in todos"
+        :key="todo.text"
+        :item="todo"
+    />
+
   </view>
 </template>
+
+
 <script>
 import TodoItem from "./components/todoItem";
+import BindButton from "./components/bindButton";
+import BindModel from "./components/bindModel";
+
 export default {
-  components: { TodoItem },
+  components: {BindModel, BindButton, TodoItem },
   data: function() {
     return {
       todos: [
@@ -31,20 +45,20 @@ export default {
 </script>
 <style>
 .container {
-  background-color: white;
+  background-color: lightblue;
   align-items: center;
   justify-content: center;
   flex: 1;
 }
 .text-container {
   color: blue;
-  padding: 2;
-  font-size: 22;
+  padding: 2px;
+  font-size: 22px;
 }
 .text-input-container {
-  width: 300;
-  height: 40;
-  font-size: 22;
+  width: 300px;
+  height: 40px;
+  font-size: 22px;
   border-color: gray;
 }
 </style>

@@ -21,6 +21,7 @@
         :item="todo"
     />
 
+
   </view>
 </template>
 
@@ -28,10 +29,9 @@
 <script>
 import TodoItem from "./components/todoItem";
 import BindButton from "./components/bindButton";
-import BindModel from "./components/bindModel";
 
 export default {
-  components: {BindModel, BindButton, TodoItem },
+  components: { BindButton, TodoItem },
   data: function() {
     return {
       todos: [
@@ -55,10 +55,5 @@ export default {
   padding: 2px;
   font-size: 22px;
 }
-.text-input-container {
-  width: 300px;
-  height: 40px;
-  font-size: 22px;
-  border-color: gray;
-}
+
 </style>

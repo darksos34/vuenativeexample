@@ -41,7 +41,8 @@ yarn global add react-native-cli
 
 
 Created on 12-01-2021
-Updated on 20-01-2021
+
+Updated on 10-09-2021
 
 
 Extra information.
